@@ -1,0 +1,19 @@
+
+.catBios{
+	border:2px solid black;
+	margin:.1%;
+	width: 30%;
+}
+
+.root {
+	display: flex;
+	width: 80%;
+	flex-flow: row wrap;
+	margin: auto;
+}
+
+@media screen and (max-width: 400px) {
+	.catBios {
+		width: 100%;
+	}
+}
