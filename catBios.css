@@ -3,10 +3,10 @@ body {
 }
 
 .container-1{
- display: flex;
-  flex-flow: row wrap;
- align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .header{
@@ -80,13 +80,59 @@ body {
   overflow: hidden;
   border: 1px solid black;
   border-radius: 15px 50px;
+  box-shadow: 
+	5px 5px 5px rgb(251,46,1),
+	15px 15px 15px rgb(111,203,159),
+	30px 30px 30px rgb(255,226,138);
+
+}
+
+.box{
+	height: 183px;
+	margin: 50px;
+  	width: 300px;
+  	border-radius: 15px 50px;
+  	perspective: 800px;
+}
+
+.card {
+	display: flex;
+	position: relative;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	transform-style: preserve-3d;
+	transform-origin: right center;
+	transition: transform 1s;
+}
+
+.card:hover {
+	transform: translateX(-100%) rotateY(180deg);
+}
+
+.card > div {
+	backface-visibility: hidden;
 }
 
 .cat1{
+	position: initial;
 	background-image: url("http://animalrescuehome.com/wp-content/uploads/2016/09/83363-028.jpg");
 	background-size:cover;
 	background-position:50% 30%;
 }
+
+.cat1__bio {
+	position: absolute;
+	/*background-color: */
+	border: 1px solid black;
+	border-radius: 15px 50px;
+	box-shadow: 
+		5px 5px 5px rgb(251,46,1),
+		15px 15px 15px rgb(111,203,159),
+		30px 30px 30px rgb(255,226,138);
+	transform: rotateY(180deg);
+}
+
 .cat2{
 	background-image: url("https://i.ytimg.com/vi/6FQsIfE7sZM/maxresdefault.jpg");
 	background-size:cover;
@@ -111,19 +157,6 @@ body {
 	background-image: url("https://s13.favim.com/orig/160126/cat-cute-kitten-snow-Favim.com-3931503.jpg");
 	background-size:cover;
 	background-position:50% 50%;
-}
-
-.box{
-	justify-content: center;
-	align-items: center;
-	display: flex;
-	margin: 50px;
-  width: 300px;
-  box-shadow: 
-    5px 5px 5px rgb(251,46,1),
-    15px 15px 15px rgb(111,203,159),
-    30px 30px 30px rgb(255,226,138);
-  border-radius: 15px 50px;
 }
 
 .footer{
