@@ -166,11 +166,33 @@ body {
 
 .footer{
   margin: auto;
-  margin-bottom: 50px;
-  padding: 1px, 10px, 1px, 10px;
   border-radius: 5px; 
-  width: 420px;
+  width: 100%;
   font-family: 'Lobster', cursive;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footlabel {
+	flex-basis: 100%;
+}
+
+.footcontainer {
+   width: 250px;
+   margin: auto;
+   border:3px solid black;
+   border-radius: 25px; 
+}
+
+.footext {
+	margin: 0px 0px 3px 0px;
+	   text-shadow: 
+    1px 3px rgb(251,46,1),
+    3px 6px rgb(111,203,159),
+    5px 9px rgb(255,226,138),
+    7px 12px rgb(255,254,179);
 }
