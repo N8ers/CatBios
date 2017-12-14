@@ -121,9 +121,9 @@ body {
 	background-position:50% 30%;
 }
 
-.cat1__bio {
+.cat__bio {
 	position: absolute;
-	/*background-color: */
+	background-color: rgb(255,254,179);
 	border: 1px solid black;
 	border-radius: 15px 50px;
 	box-shadow: 
@@ -131,6 +131,11 @@ body {
 		15px 15px 15px rgb(111,203,159),
 		30px 30px 30px rgb(255,226,138);
 	transform: rotateY(180deg);
+	padding: 10px;
+}
+
+.bio_font {
+	font-family: 'Josefin Slab', serif;
 }
 
 .cat2{
