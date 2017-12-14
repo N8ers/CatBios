@@ -1,19 +1,74 @@
+/*
+To-Do;
+-tighten up the top box so ends are touching
+-make sure all photos are the same size
+-
+*/
 
-.catBios{
-	border:2px solid black;
-	margin:.1%;
-	width: 30%;
+
+
+body {
+/* 	max-width: 900px; */
+  background-color: #666547;
 }
 
-.root {
+.container-1{
+ 	display: flex;
+  flex-flow: row wrap;
+ 	align-items: center;
+  justify-content: center;
+}
+
+.header{
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 1px, 10px, 1px, 10px;
+  boarder-radius: 5px; 
+  width: 420px;
+  font-family: 'Lobster', cursive;
+  font-size: 124px;
+  text-align: center;
+}
+
+.shadowHead {
+  margin: auto;
+  border: 6px solid black;
+  border-radius: 10%;
+  padding: 1px, 30px, -4px, 20px;
+  text-shadow: 
+    1px 3px rgb(251,46,1),
+    3px 6px rgb(111,203,159),
+    5px 9px rgb(255,226,138);
+}
+
+.img{
+  width: 100%;
+/*   height: 100%; */
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 15px 50px;
+}
+
+.box{
+	justify-content: center;
+	align-items: center;
 	display: flex;
-	width: 80%;
-	flex-flow: row wrap;
-	margin: auto;
+	margin: 50px;
+  width: 300px;
+  box-shadow: 
+    5px 5px 5px rgb(251,46,1),
+    15px 15px 15px rgb(111,203,159),
+    30px 30px 30px rgb(255,226,138);
+  border-radius: 15px 50px;
 }
 
-@media screen and (max-width: 400px) {
-	.catBios {
-		width: 100%;
-	}
+.footer{
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 1px, 10px, 1px, 10px;
+  boarder-radius: 5px; 
+  width: 420px;
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  text-align: center;
 }
