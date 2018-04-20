@@ -1,6 +1,6 @@
 This Groovy cat adoption website was built with flexbox with 70's influenced design, not to mention a feline lorem ipsum. 
 This project was done in tandum with another programmer <a href="https://github.com/klcantrell" target="_blank">Kalalau Cantrell</a>. 
-This project uses HTML5, CSS3, JavaScript, and was the first colaborative project I had done using version control.
+This project uses HTML5, CSS3, JavaScript, and was the first colaborative project I been a part of using version control.
 Far out...
 
 <a href="http://sheryak-flexboxlitterbox.surge.sh/" target="_blank">Flexbox Litterbox!</a>
